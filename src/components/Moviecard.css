@@ -1,0 +1,45 @@
+.card-container{
+    width: 21rem;
+    background-color: var(--card-bg-color);
+    /*box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .8);*/
+    box-shadow: 0px 0px 10px #a16207;
+    border-radius: 4px;
+    transition: 0.3s ;
+}
+
+.card-img-container{
+    width: 100%;
+    height: 28rem;
+}
+
+.card-container:hover{
+   opacity: 0.7;
+   transform: translatey(-25px);
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: center center;
+}
+
+.card-details{
+    color: #a16207; 
+   /*color: #082f49; */
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+}
+
